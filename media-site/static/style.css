@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: black;
+    color: #00ff88;
+}
+
+/* фон с эффектом */
+.bg {
+    background: radial-gradient(circle, #001a10, black);
+}
+
+/* блоки */
+.box {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #00ff88;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* светящийся эффект */
+.glow {
+    box-shadow: 0 0 20px #00ff88;
+}
+
+/* заголовок */
+.title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* поля */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    background: black;
+    border: 1px solid #00ff88;
+    color: #00ff88;
+}
+
+/* кнопка */
+button {
+    padding: 10px;
+    width: 100%;
+    background: #00ff88;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00cc66;
+}
